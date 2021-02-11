@@ -9,7 +9,11 @@
     "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel open:src localtunnel"
   },
-  "author": "Omar Khaled",
+  "author": {
+    "name": "Omar Khaled",
+    "email": "omar.shan99@gmail.com",
+    "url": "https://omarshan.me"
+  },
   "license": "GNU3",
   "dependencies": {
     "whatwg-fetch": "3.5.0"
