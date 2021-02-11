@@ -20,7 +20,7 @@
   },
   "license": "GNU3",
   "dependencies": {
-    "whatwg-fetch": "3.5.0"
+    "whatwg-fetch": "1.0.0"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
@@ -34,9 +34,9 @@
     "compression": "1.7.4",
     "cross-env": "7.0.3",
     "css-loader": "5.0.2",
-    "eslint": "7.19.0",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-watch": "7.0.0",
+    "eslint": "^7.19.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-watch": "^7.0.0",
     "express": "4.17.1",
     "extract-text-webpack-plugin": "3.0.2",
     "html-webpack-plugin": "5.0.0",
