@@ -21,5 +21,5 @@ server.get("/", (req, res) => {
 });
 
 server.listen(port, (err) => {
-  err ? console.error(err) : open(`http://localhost:${port}`);
+  err ? console.error(err) : open(`http://localhost:${port}`); // eslint-disable-line no-console
 });
