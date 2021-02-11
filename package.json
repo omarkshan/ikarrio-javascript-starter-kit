@@ -1,7 +1,7 @@
 {
-  "name": "javascript-development-environment",
+  "name": "ikarrio-javascript-development-environment",
   "version": "1.0.0",
-  "description": "JavaScript development environment Pluralsight course by Cory House",
+  "description": "Ikarrio JavaScript Development Environment for rapidly starting projects",
   "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",
     "open:src": "babel-node buildScripts/srcServer.js",
@@ -9,8 +9,8 @@
     "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel open:src localtunnel"
   },
-  "author": "Cory House",
-  "license": "MIT",
+  "author": "Omar Khaled",
+  "license": "GNU3",
   "dependencies": {
     "whatwg-fetch": "3.5.0"
   },
